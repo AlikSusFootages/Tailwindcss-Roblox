@@ -14,7 +14,8 @@ end
 local ScreenGui = Create("ScreenGui", {
     Name = "TailwindCSS Colors",
     ResetOnSpawn = false,
-    ZIndexBehavior = "Sibling"
+    ZIndexBehavior = "Sibling",
+    Parent = game.Players.LocalPlayer.PlayerGUI
 }, {
     Create("TextLabel", {
         Size = UDim2.new(0, 400, 0, 300),
