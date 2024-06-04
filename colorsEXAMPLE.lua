@@ -58,7 +58,7 @@ local Content = ScreenGui.TextLabel.Frame
 for ColorName, ColorData in pairs(Color) do
     Create("TextLabel", {
         Parent = Content,
-        Size = UDim2.new(1,0,0,30), 
+        Size = UDim2.new(1,0,0,24), 
         BackgroundTransparency = 1,
         Text = ColorName,
         TextSize = 18,
