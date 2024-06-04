@@ -43,6 +43,7 @@ local ScreenGui = Create("ScreenGui", {
             Size = UDim2.new(1,0,1,-40),
             Position = UDim2.fromScale(0,1),
             AnchorPoint = Vector2.new(0,1),
+            BackgroundTransparency = 1,
         }, {
             Create("UIListLayout", {
                 FillDirection = "Vertical",
@@ -51,3 +52,14 @@ local ScreenGui = Create("ScreenGui", {
         })
     })
 })
+
+local Content = ScreenGui.TextLabel.Frame
+
+for i,v in Color do
+    Create("TextLabel", {
+        Parent = Content,
+        Size = UDim2.new(1,0,0,30), 
+        BackgroundTransparency = 1,
+        Text = i
+    })
+end
