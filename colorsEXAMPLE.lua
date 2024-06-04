@@ -66,8 +66,5 @@ for ColorName, ColorData in pairs(Color) do
         Font = "Gotham",
         TextXAlignment = "Left"
     })
-end
-
-Content.UIListLayout:GetPropetryChangedSignal("AbsoluteContentSize"):Connect(function()
     Content.Parent.Size = UDim2.new(0, 400, 0, Content.UIListLayout.AbsoluteContentSize.Y)
-end)
+end
