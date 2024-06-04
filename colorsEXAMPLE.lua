@@ -55,11 +55,11 @@ local ScreenGui = Create("ScreenGui", {
 
 local Content = ScreenGui.TextLabel.Frame
 
-for i,v in Color do
+for ColorName, ColorData in pairs(Color) do
     Create("TextLabel", {
         Parent = Content,
         Size = UDim2.new(1,0,0,30), 
         BackgroundTransparency = 1,
-        Text = i
+        Text = ColorName
     })
 end
