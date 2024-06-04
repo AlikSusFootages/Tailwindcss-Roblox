@@ -60,6 +60,9 @@ for ColorName, ColorData in pairs(Color) do
         Parent = Content,
         Size = UDim2.new(1,0,0,30), 
         BackgroundTransparency = 1,
-        Text = ColorName
+        Text = ColorName,
+        TextSize = 18,
+        TextColor3 = Color.neutral["900"].RGB,
+        Font = "Gotham"
     })
 end
