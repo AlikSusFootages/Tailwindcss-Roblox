@@ -30,6 +30,7 @@ local ScreenGui = Create("ScreenGui", {
         TextXAlignment = "Left",
         TextYAlignment = "Top",
         Draggable = true,
+        Active = true,
     }, {
         Create("UICorner", {
             CornerRadius = UDim.new(0,10)
