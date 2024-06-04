@@ -14,10 +14,10 @@ local ColorsRequest = request({
 ```lua
 local ColorsLoadstring = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlikSusFootages/Tailwindcss-Roblox/main/colors.lua"))()
 
-local GreenRGB = ColorsLoadstring.green.RGB["500"] -- RGB
+local GreenRGB = ColorsLoadstring.green["500"].RGB -- RGB
 myFrame.BackgroundColor3 = GreenRGB
 
-local GreenHEX = ColorsLoadstring.green.hex["500"]
+local GreenHEX = ColorsLoadstring.green["500"].hex
 print(Green)
 ```
 
