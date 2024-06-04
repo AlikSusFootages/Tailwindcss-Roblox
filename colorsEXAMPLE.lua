@@ -40,7 +40,7 @@ local ScreenGui = Create("ScreenGui", {
             PaddingBottom = UDim.new(0,14),
         }),
         Create("Frame", {
-            Size = UDim2.new(1,0,1,-42),
+            Size = UDim2.new(1,0,1,-40),
             Position = UDim2.fromScale(0,1),
             AnchorPoint = Vector2.new(0,1),
         })
