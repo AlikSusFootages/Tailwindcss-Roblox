@@ -63,6 +63,7 @@ for ColorName, ColorData in pairs(Color) do
         Text = ColorName,
         TextSize = 18,
         TextColor3 = Color.neutral["900"].RGB,
-        Font = "Gotham"
+        Font = "Gotham",
+        TextXAlignment = "Left"
     })
 end
