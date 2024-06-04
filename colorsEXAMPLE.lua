@@ -24,8 +24,9 @@ local ScreenGui = Create("ScreenGui", {
         BackgroundColor3 = Color.gray["200"].RGB,
         BorderSizePixel = 0,
         Text = "TailwindCSS Colors",
-        TextSize = 36,
+        TextSize = 26,
         TextColor3 = Color.black.RGB,
+        Font = "GothamMedium",
         TextXAlignment = "Left",
         TextYAlignment = "Top",
     }, {
