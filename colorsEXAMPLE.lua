@@ -34,10 +34,10 @@ local ScreenGui = Create("ScreenGui", {
             CornerRadius = UDim.new(0,10)
         }),
         Create("UIPadding", {
-            PaddingTop = UDim.new(0,10),
-            PaddingLeft = UDim.new(0,14),
-            PaddingRight = UDim.new(0,14),
-            PaddingBottom = UDim.new(0,10),
+            PaddingTop = UDim.new(0,14),
+            PaddingLeft = UDim.new(0,16),
+            PaddingRight = UDim.new(0,16),
+            PaddingBottom = UDim.new(0,14),
         }),
         Create("Frame", {
             Size = UDim2.new(1,0,1,-42),
